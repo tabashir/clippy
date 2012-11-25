@@ -4,13 +4,14 @@ Clippy is a bookmark/web clipping manager
 
 It is my first ever PHP project and is for getting to know:
 
-SlimFramework
-PropelORM
-Smarty
+1. SlimFramework
+2. PropelORM
+3. Smarty
 
 ## Installation ##
 
 Git Clone to your webapp
+composer install
 
 ## License ##
 
