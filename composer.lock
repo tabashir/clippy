@@ -1,0 +1,280 @@
+{
+    "hash": "02c97de1adc7e9a050f4b39668ae85fc",
+    "packages": [
+        {
+            "name": "kraksoft/jquery",
+            "version": "1.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kraksoft/jquery",
+                "reference": "1.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/kraksoft/jquery/zipball/1.8.2",
+                "reference": "1.8.2",
+                "shasum": ""
+            },
+            "time": "2012-10-21 12:26:30",
+            "type": "library",
+            "installation-source": "source",
+            "description": "jQuery fork",
+            "homepage": "http://jquery.com/",
+            "keywords": [
+                "jquery"
+            ]
+        },
+        {
+            "name": "phing/phing",
+            "version": "2.4.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phingofficial/phing",
+                "reference": "2.4.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/phingofficial/phing/archive/2.4.13.zip",
+                "reference": "2.4.13",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "time": "2012-11-20 06:49:06",
+            "bin": [
+                "bin/phing"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "classes/phing/"
+                ]
+            },
+            "include-path": [
+                "classes"
+            ],
+            "license": [
+                "LGPL3"
+            ],
+            "authors": [
+                {
+                    "name": "Michiel Rook",
+                    "email": "mrook@php.net"
+                },
+                {
+                    "name": "Phing Community",
+                    "homepage": "http://www.phing.info/trac/wiki/Development/Contributors"
+                }
+            ],
+            "description": "PHing Is Not GNU make; it's a PHP project build system or build tool based on Apache Ant.",
+            "homepage": "http://www.phing.info/",
+            "keywords": [
+                "build",
+                "task",
+                "tool"
+            ]
+        },
+        {
+            "name": "propel/propel1",
+            "version": "1.6.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/propelorm/Propel",
+                "reference": "1.6.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/propelorm/Propel/zipball/1.6.7",
+                "reference": "1.6.7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4",
+                "phing/phing": ">=2.4.12,2.4.*"
+            },
+            "time": "2012-07-30 00:58:15",
+            "bin": [
+                "generator/bin/propel-gen",
+                "generator/bin/propel-gen.bat"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "runtime/lib",
+                    "generator/lib"
+                ]
+            },
+            "include-path": [
+                "runtime/lib",
+                "generator/lib"
+            ],
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "Propel is an open-source Object-Relational Mapping (ORM) for PHP5.",
+            "homepage": "http://www.propelorm.org/",
+            "keywords": [
+                "database",
+                "orm",
+                "persistence",
+                "Active Record",
+                "mapping"
+            ]
+        },
+        {
+            "name": "slim/extras",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim-Extras",
+                "reference": "1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/codeguy/Slim-Extras/zipball/1.0.2",
+                "reference": "1.0.2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "time": "2012-02-23 08:10:48",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Twig_Extensions_": "Views/Extension/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Smith",
+                    "email": "a.smith@silentworks.co.uk",
+                    "homepage": "http://www.silentworks.co.uk/"
+                },
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Extras package for Slim Framework",
+            "homepage": "http://github.com/codeguy/Slim-Extras",
+            "keywords": [
+                "templating",
+                "extensions"
+            ]
+        },
+        {
+            "name": "slim/slim",
+            "version": "1.6.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim",
+                "reference": "1.6.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/codeguy/Slim/zipball/1.6.7",
+                "reference": "1.6.7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "time": "2012-08-28 16:09:45",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "Slim/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a micro framework for PHP 5",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ]
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.12",
+            "source": {
+                "type": "svn",
+                "url": "http://smarty-php.googlecode.com/svn",
+                "reference": "/tags/v3.1.12/@4664"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "time": "2012-09-25 22:13:16",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "distribution/libs/Smarty.class.php"
+                ]
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ]
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}
