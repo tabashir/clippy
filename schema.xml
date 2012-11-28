@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="clippy" defaultIdMethod="native">
+  <table name="clippings" phpName="Clipping">
+    <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+    <column name="source" type="varchar" size="255" required="true" />
+    <column name="title" type="varchar" size="255" required="true" />
+  </table>
+</database>
+
+

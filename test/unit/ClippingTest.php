@@ -1,13 +1,17 @@
 <?php
-include_once __DIR__ . '/../../app/clipping.php';
+
+include_once __DIR__ . '/../../app/classes/Clipping.php';
 
 class ClippingTest extends PHPUnit_Framework_TestCase {
 
-    public function testClipping() {
-                
-        $unit = new Clipping("This is a clipping");
-        $this->assertEquals("This is a clipping", $unit->clipping);
+    public function testClippingConstruction() {
+
+        $unit = new Clipping("http://my.clippi.ng", "clipping title");
+        
+        $this->assertEquals("http://my.clippi.ng", $unit->getSource());
+        $this->assertEquals("clipping title", $unit->getTitle());
     }
 
 }
+
 ?>

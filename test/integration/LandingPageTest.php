@@ -1,29 +1,29 @@
 <?php
-require_once '__init__.php';
 
 class HomePageTest extends PHPUnit_Framework_TestCase {
-    /** 
-    * @var WebDriverSession
-    */
-    protected $_session;
+    /* @var $session WebDriverSession */
+    protected $session;
+    protected $base_url;
 
     public function setUp() {
         parent::setUp();
         $web_driver = new WebDriver();
-        $this->_session = $web_driver->session();
+        $this->session = $web_driver->session();
+        $this->base_url = 'http://localhost:8000/';
     }
 
     public function tearDown() {
-        $this->_session->close();
-        unset($this->_session);
+        $this->session->close();
+        unset($this->session);
         parent::tearDown();
     }
 
     public function test_main_page() {
-        $this->_session->open('http://localhost/');
-        print_r($this->_session->source());
-        $this->assertSame('Clippy Web Clippings Database', $this->_session->title());
-        $this->assertSame('Hello World', $this->_session->element('xpath','//body')->text());
+        $this->session->open($this->base_url);
+        print_r($this->session->source());
+        $this->assertSame('Clippy Web Clippings Database', $this->session->title());
+        $this->assertSame('Hello World', $this->session->element('xpath','//body')->text());
+        
     }
 }
 

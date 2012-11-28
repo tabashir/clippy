@@ -1,5 +1,6 @@
 <?php
-require '../vendor/autoload.php';
+
+require_once '../app/base_init.php';
 
 $app = new Slim(array(
     'log.level' => 4,
